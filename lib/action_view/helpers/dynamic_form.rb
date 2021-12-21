@@ -207,7 +207,7 @@ module ActionView
               value = options[key]
               html[key] = value unless value.blank?
             else
-              html[key] = 'error_explanation'
+              html[key] = 'errorExplanation'
             end
           end
           options[:object_name] ||= params.first
